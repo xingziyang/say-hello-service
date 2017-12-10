@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.78.6:8761/eureka/
+server:
+  port: 8763
+spring:
+  application:
+    name: say-hello-service
+spring.zipkin.base-url: http://192.168.78.6:9411
